@@ -5,12 +5,12 @@
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "neopixel": "github:lzty634158/pxt-neopixel",
+        "neopixel": "github:lzty634158/pxt-neopixel"
     },
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh/mbit-strings.json"
+        "_locales/zh/mbit-strings.json",
         "shims.d.ts",
         "enums.d.ts",
         "ir.cpp",

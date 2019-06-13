@@ -71,21 +71,6 @@ namespace Mbit_IR {
     //if(actions.find(btn) == actions.end()) actions[btn] = new vector();
     actions[btn].push_back(body);
   }
-  
-  /**
-  * button pushed.
-  */
-  //% blockId=ir_received_left_event_return
-  //% block="on |%btn| button pressed than return 1"
-  int onPressEventReturn(RemoteButton btn, Action body) {
-    //if(actions.find(btn) == actions.end()) actions[btn] = new vector();
-    actions[btn].push_back(body);
-	if(btn == 0x20){
-	    return 0;	
-	} else {
-		return 1;
-	}
-  }
 
   void cA(vA runner){for(int i=0;i<runner.size();i++){runAction0(runner[i]);} }
 

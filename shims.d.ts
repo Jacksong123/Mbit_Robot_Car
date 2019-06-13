@@ -12,20 +12,7 @@ declare namespace Mbit_IR {
     //% blockId=ir_received_left_event
     //% block="on |%btn| button pressed" shim=Mbit_IR::onPressEvent
     function onPressEvent(btn: RemoteButton, body: () => void): void;
-    
-	/**
-     * button pushed.
-     */
-    //% blockId=ir_received_left_event_return
-    //% block="on |%btn| button pressed than return 1" shim=Mbit_IR::onPressEventReturn
-	export function onPressEventReturn(btn: RemoteButton, body: () => void): number {
-		return;
-	}
-		
-		
-		
-		
-		
+
     /**
      * initialises local variablesssss
      */

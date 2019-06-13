@@ -35,7 +35,7 @@ namespace mbit_显示类 {
         //% blockId="OFF" block="灭"
         OFF = 0,
         //% blockId="ON" block="亮"
-        ON =1
+        ON = 1
     }
 
     //% blockId=mbit_LED1 block="LED1|pin %pin|value %value"
